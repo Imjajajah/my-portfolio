@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.01ebe867.css",
+    "main.js": "/my-portfolio/static/js/main.8b777f5f.js",
+    "static/media/accre.png": "/my-portfolio/static/media/accre.c0b74cf202f111bf4fb1.png",
+    "static/media/membership-system.png": "/my-portfolio/static/media/membership-system.f83272072b272d91eb00.png",
+    "static/media/finance-system.png": "/my-portfolio/static/media/finance-system.e6ef21ad7b4cf57755f4.png",
+    "static/media/algoritees.png": "/my-portfolio/static/media/algoritees.b56f367f7b2b7249855d.png",
+    "static/media/patient-system.png": "/my-portfolio/static/media/patient-system.6fa019761333617c8bc0.png",
+    "static/media/crgs.png": "/my-portfolio/static/media/crgs.e83f0206e61e886a3a26.png",
+    "static/media/qr.jpeg": "/my-portfolio/static/media/qr.c0f5db39d7882f0f19e0.jpeg",
+    "static/media/jarrell-resume.pdf": "/my-portfolio/static/media/jarrell-resume.5b3b1b0b09d817642d6e.pdf",
+    "static/media/home-main.svg": "/my-portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/my-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/smartstudy.png": "/my-portfolio/static/media/smartstudy.ab069b90d13760882222.png",
+    "static/media/tracker-system.png": "/my-portfolio/static/media/tracker-system.da66dc9c2965b814170c.png",
+    "static/media/home-bg.jpg": "/my-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/sLogo.png": "/my-portfolio/static/media/sLogo.fbf5685094ecde30a712.png",
+    "static/media/pre.svg": "/my-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.01ebe867.css.map": "/my-portfolio/static/css/main.01ebe867.css.map",
+    "main.8b777f5f.js.map": "/my-portfolio/static/js/main.8b777f5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01ebe867.css",
+    "static/js/main.8b777f5f.js"
+  ]
+}
