@@ -2,10 +2,11 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter
+
+  // 🔑 Facebook and Instagram icons from ai or fa are not needed here if using fa below
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa"; // 🔑 Import FaFacebookF and FaInstagram
+
 import './Social.css'
 
 const Social = () => {
@@ -20,9 +21,10 @@ const Social = () => {
                 </p>
                 </div>
                 <ul className="contact-social-links">
+                  {/* GitHub */}
                   <li className="contact-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/Imjajajah" // Updated this to your GitHub username
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -30,19 +32,37 @@ const Social = () => {
                       <AiFillGithub />
                     </a>
                   </li>
+
+                  {/* 🔑 FACEBOOK ICON ADDED */}
                   <li className="contact-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://www.facebook.com/jarrell.reyes.12/"
                       target="_blank"
                       rel="noreferrer"
-                      className="icon-color  contact-social-icons"
+                      className="icon-color contact-social-icons"
+                      aria-label="facebook"
                     >
-                      <AiOutlineTwitter />
+                      <FaFacebookF />
                     </a>
                   </li>
+
+                  {/* 🔑 INSTAGRAM ICON ADDED */}
                   <li className="contact-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.instagram.com/im_jajajah/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-color contact-social-icons"
+                      aria-label="instagram"
+                    >
+                      <FaInstagram />
+                    </a>
+                  </li>
+                 
+                  {/* LinkedIn */}
+                  <li className="contact-icons">
+                    <a
+                      href="https://www.linkedin.com/in/jarrellreyes/" // Updated this to your LinkedIn username
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -50,16 +70,8 @@ const Social = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="contact-icons">
-                    <a
-                      href="hhttps://leetcode.com/19sajib/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-color contact-social-icons"
-                    >
-                      <SiLeetcode />
-                    </a>
-                  </li>
+
+                  
                 </ul>
               </Col>
             </Row>
