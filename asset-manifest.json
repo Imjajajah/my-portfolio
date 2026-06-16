@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d1724a5e.css",
-    "main.js": "/my-portfolio/static/js/main.0e68624a.js",
+    "main.js": "/my-portfolio/static/js/main.3d179733.js",
     "static/media/accre.png": "/my-portfolio/static/media/accre.c0b74cf202f111bf4fb1.png",
     "static/media/tubig-admin.png": "/my-portfolio/static/media/tubig-admin.10e7d35e9aafce782cba.png",
     "static/media/mosangs-budbod.png": "/my-portfolio/static/media/mosangs-budbod.cddc3d6fac07917a23c3.png",
@@ -15,18 +15,18 @@
     "static/media/about.png": "/my-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/tubig-user.png": "/my-portfolio/static/media/tubig-user.71f6676ea3110ec05bcf.png",
     "static/media/smartstudy.png": "/my-portfolio/static/media/smartstudy.ab069b90d13760882222.png",
+    "static/media/meter-reader.png": "/my-portfolio/static/media/meter-reader.1447489860818dd1e262.png",
     "static/media/tracker-system.png": "/my-portfolio/static/media/tracker-system.da66dc9c2965b814170c.png",
     "static/media/jarrell-resume.pdf": "/my-portfolio/static/media/jarrell-resume.d279a27b0219e9596838.pdf",
-    "static/media/meter-reader.png": "/my-portfolio/static/media/meter-reader.452f47dd498e57b7a560.png",
     "static/media/home-bg.jpg": "/my-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/sLogo.png": "/my-portfolio/static/media/sLogo.fbf5685094ecde30a712.png",
     "static/media/pre.svg": "/my-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/my-portfolio/index.html",
     "main.d1724a5e.css.map": "/my-portfolio/static/css/main.d1724a5e.css.map",
-    "main.0e68624a.js.map": "/my-portfolio/static/js/main.0e68624a.js.map"
+    "main.3d179733.js.map": "/my-portfolio/static/js/main.3d179733.js.map"
   },
   "entrypoints": [
     "static/css/main.d1724a5e.css",
-    "static/js/main.0e68624a.js"
+    "static/js/main.3d179733.js"
   ]
 }
