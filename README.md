@@ -1,65 +1,77 @@
-# JS Portfolio Website
+# 🌟 Jarrell Inocando Reyes — Personal Portfolio
 
-[🔗Live Demo🔗](https://sajib.vercel.app/)
+Welcome to my portfolio! I am a **Full-Stack & Mobile Developer** and **Technical Support Engineer** based in Quezon City, Philippines. I specialize in architecting, developing, and deploying multi-platform enterprise systems, with a strong focus on offline-first capabilities, transactional security, and custom integrations.
 
-![Protfolio Website](https://i.ibb.co/N7xKjdQ/Screenshot-17.png)
+---
 
-<div align="center">
+## 🚀 About Me
 
-![GitHub repo size](https://img.shields.io/github/repo-size/19sajib/portfolio?color=yellow)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-</div>
+- 🎓 **Education**: Bachelor of Science in Information Technology (Polytechnic University of the Philippines, Class of 2025)
+- 💼 **Current Role**: Technical Support Engineer at **Telus**, supporting Google's RCS ecosystem and enterprise telecom clients.
+- 🛠️ **Freelance Work**: Architect and deploy production-grade admin dashboards, field operations apps, and customer-facing mobile portals.
+- 🎯 **Specializations**: Offline-first synchronization, transactional payment integrations (PayMongo), hardware peripherals (ESC/POS Bluetooth printing), and secure database design.
 
-<table align="center">
-    <thead align="center">
-        <tr border: 1px;>
-            <td><b>Project Stats</td>
-            <td><b>🌟 Stars</b></td>
-            <td><b>🍴 Forks</b></td>
-            <td><b>🐛 Issues</b></td>
-            <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
-        </tr>
-     </thead>
-    <tbody>
-         <tr>
-            <td><a href="https://github.com/19sajib/portfolio"</a>Project</td>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/19sajib/portfolio?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/19sajib/portfolio?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/19sajib/portfolio?style=flat&color=critical&logo=github"/></td>
-        </tr>
-    </tbody>
-</table>
+---
 
-<br/>
+## 📁 Featured Enterprise Projects
 
-## Features
+### 1. 💧 Tubig Pilipinas Admin System
+* **Description**: Enterprise admin web dashboard for GT Industries water utility. Re-engineered the SOA billing engine with strict compound calculation order (Basic → VAT → Arrears → Penalties). Built isolated cashier SI-series sequencing, PayMongo QR billing, audit-grade Excel (.xlsx) data pipelines, and RBAC security middleware in the MVC base controller.
+* **Tech Stack**: PHP, CodeIgniter, MySQL, jQuery, Git
+* **Demo**: [Live Login Portal](https://tubigpilipinas.gtindustries.ph/login)
 
-**📖 Multi-Page Layout**
+### 📱 2. Meter Reader App
+* **Description**: Offline-first Flutter field operations app for GT Industries. Architected local SQLite caching for offline meter reads with mandatory photo-proof validation. Integrated ESC/POS Bluetooth thermal printing, asynchronous support ticket logging, PayMongo e-payment QR triggers, and partial reading state management for meter replacements.
+* **Tech Stack**: Flutter, Dart, SQLite, REST APIs
 
-**🎨 Styled with React-Bootstrap and CSS with easy to customize colors**
+### 📲 3. Tubig User App
+* **Description**: Customer self-service mobile app for GT Industries concessionaires. Refactored the SOA data layer to mirror standardized multi-tier fee structures. Integrated PayMongo SDK for real-time mobile bill payments directly from digital statements, reducing physical cashier foot traffic. Standardized in-app cut-off warnings and payment reminders.
+* **Tech Stack**: Flutter, Dart, PayMongo SDK, iOS & Android
 
-**📱 Fully Responsive**
+### 🍲 4. Mosang's Budbod – Food Logistics System
+* **Description**: Full-stack food ordering and logistics platform. Reverse-engineered a legacy undocumented database and migrated all data assets to Google Firebase with zero production downtime. Implemented third-party courier dispatch APIs with distance-based pricing, live order lifecycle tracking, and multi-direction PayMongo webhook receivers for automated ledger synchronization.
+* **Tech Stack**: Firebase, Firestore, PayMongo Webhooks
+* **Demo**: [Mosang's Budbod Live Site](https://www.mosangsbudbod.ph/)
 
-<br />
+---
 
-## 🚀 How to get started?
+## 🛠️ Technical Stack & Skills
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+- **Languages**: PHP, Dart, Python, JavaScript, SQL, HTML, CSS
+- **Frameworks & Libraries**: Laravel, CodeIgniter, Django, Flutter, React, Next.js, Bootstrap
+- **Databases & Cloud**: MySQL, PostgreSQL, SQLite, Google Firebase (Firestore, Auth, Webhooks)
+- **Developer Tools & Platforms**: Git, GitHub, VS Code, Postman, Jira, Vercel, Netlify
+- **Core Domain Expertise**: Offline-First Caching, RESTful API Design, Relational DB Schema Design, Payment Integration (PayMongo), ESC/POS Thermal Printing protocols
 
-## 🛠 Installation and Setup Instructions
+---
 
-1. Installation: `npm install`
+## ⚙️ Running the Portfolio Locally
 
-2. In the project directory, you can run: `npm start`
+If you would like to run this React-based portfolio locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
-The page will reload if you make edits.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Imjajajah/my-portfolio.git
+   cd my-portfolio
+   ```
 
-<br />
-Feel free to contribute to this repo.
+2. **Install dependencies**:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-### Show some ❤️&nbsp; by giving the star :star: to this repository!!
-<h1 align=center> 🧠 Happy Hacking 🧠 </h1>
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
+   *The app should open automatically at `http://localhost:3000`.*
+
+---
+
+## 📄 License & Contact
+
+- **GitHub**: [@Imjajajah](https://github.com/Imjajajah)
+- **LinkedIn**: [Jarrell Reyes](https://www.linkedin.com/in/jarrellreyes/)
+- **Email**: [jir@gtindustries.ph](mailto:jir@gtindustries.ph)
+
+*Designed & developed by Jarrell I. Reyes © 2026.*
