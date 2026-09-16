@@ -95,7 +95,7 @@ const ProjectCard = (props) => {
 
           {props.playStoreLink && (
             <Button
-              variant="success"
+              variant="primary"
               href={props.playStoreLink}
               target="_blank"
               style={{
