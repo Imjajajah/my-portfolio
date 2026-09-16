@@ -36,7 +36,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center" onClick={() => updateExpanded(false)}>
           <span className="yellow" style={{ fontWeight: "800", fontSize: "1.7rem", letterSpacing: "1px" }}>
-            JR.
+            ImJah
           </span>
         </Navbar.Brand>
         <Navbar.Toggle

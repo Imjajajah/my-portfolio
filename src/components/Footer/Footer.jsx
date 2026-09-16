@@ -14,7 +14,7 @@ const Footer = () => {
         <Row>
           <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
-            <strong className="yellow" style={{ marginLeft: "10px", fontSize: "1.2rem" }}>JR.</strong>
+            <strong className="yellow" style={{ marginLeft: "10px", fontSize: "1.2rem" }}>ImJah</strong>
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
