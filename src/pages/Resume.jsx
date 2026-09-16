@@ -11,9 +11,6 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-// The correct raw URL for the PDF viewer
-const resumeLink = `https://raw.githubusercontent.com/Imjajajah/my-portfolio/main/src/assets/jarrell-resume.pdf`
-
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
@@ -41,7 +38,7 @@ const Resume = () => {
 
         <Row className="resume">
           {/* We will target the .resume class in CSS */}
-          <Document file={resumeLink} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center">
             {/* Pages are rendered inside here */}
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
             <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} /> 
