@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { FaGooglePlay } from "react-icons/fa";
 
 const ProjectCard = (props) => {
   return (
@@ -46,56 +47,85 @@ const ProjectCard = (props) => {
           {props.description}
         </Card.Text>
 
-        {props.ghLink && props.ghLink !== "#" && (
-          <Button
-            variant="primary"
-            href={props.ghLink}
-            target="_blank"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              textAlign: "center",
-            }}
-          >
-            <BsGithub /> &nbsp;
-            {props.isBlog ? "Blog" : "GitHub"}
-          </Button>
-        )}
+        <div style={{ marginTop: "auto", display: "flex", flexDirection: "column", gap: "8px" }}>
+          {props.isFlutterFlow ? (
+            <Button
+              variant="secondary"
+              disabled
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                opacity: 0.85,
+                cursor: "default",
+              }}
+            >
+              ⚡ &nbsp; Built in FlutterFlow
+            </Button>
+          ) : props.ghLink && props.ghLink !== "#" ? (
+            <Button
+              variant="primary"
+              href={props.ghLink}
+              target="_blank"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+              }}
+            >
+              <BsGithub /> &nbsp;
+              {props.isBlog ? "Blog" : "GitHub"}
+            </Button>
+          ) : props.ghLink === "#" ? (
+            <Button
+              variant="primary"
+              disabled
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                opacity: 0.65,
+                cursor: "not-allowed",
+              }}
+            >
+              🔒 &nbsp; {props.isFeatured ? "Private / Client Repo" : "Source Unavailable"}
+            </Button>
+          ) : null}
 
-        {props.ghLink === "#" && (
-          <Button
-            variant="primary"
-            disabled
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              opacity: 0.65,
-              cursor: "not-allowed",
-            }}
-          >
-            🔒 &nbsp; {props.isFeatured ? "Private / Client Repo" : "Source Unavailable"}
-          </Button>
-        )}
+          {props.playStoreLink && (
+            <Button
+              variant="success"
+              href={props.playStoreLink}
+              target="_blank"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+              }}
+            >
+              <FaGooglePlay /> &nbsp; Play Store
+            </Button>
+          )}
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{
-              marginTop: "10px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              textAlign: "center",
-            }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
+          {!props.isBlog && props.demoLink && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+              }}
+            >
+              <CgWebsite /> &nbsp;
+              {"Demo / Live Site"}
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );

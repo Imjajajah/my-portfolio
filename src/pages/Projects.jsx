@@ -63,6 +63,7 @@ const Projects = () => {
               title="Meter Reader App"
               description="Offline-first Flutter field operations app for GT Industries. Architected local SQLite caching for offline meter reads with mandatory photo-proof validation. Integrated ESC/POS Bluetooth thermal printing, asynchronous support ticket logging, PayMongo e-payment QR triggers, and partial reading state management for meter replacements. (Flutter, Dart, SQLite, REST APIs)"
               ghLink="#"
+              playStoreLink="https://play.google.com/store/apps/details?id=com.ripplereader&hl=en"
               isFeatured={true}
             />
           </Col>
@@ -75,6 +76,7 @@ const Projects = () => {
               title="Tubig User App"
               description="Customer self-service mobile app for GT Industries concessionaires. Refactored the SOA data layer to mirror standardized multi-tier fee structures. Integrated PayMongo SDK for real-time mobile bill payments directly from digital statements, reducing physical cashier foot traffic. Standardized in-app cut-off warnings and payment reminders. (Flutter, Dart, PayMongo SDK, iOS & Android)"
               ghLink="#"
+              playStoreLink="https://play.google.com/store/apps/details?id=com.gti&hl=en"
               isFeatured={true}
             />
           </Col>
@@ -186,8 +188,8 @@ const Projects = () => {
               imgPath={smartstudyImg}
               isBlog={false}
               title="SmartStudy App"
-              description="Designed and implemented a mobile application for students, featuring reviewer creation tools, integrated study timers, and performance statistic tracking. (Tech Stack: Flutterflow, Firebase)"
-              ghLink="https://github.com/Imjajajah/smartstudy-app"
+              description="Designed and implemented a mobile application for students, featuring reviewer creation tools, integrated study timers, and performance statistic tracking. (Tech Stack: FlutterFlow, Firebase)"
+              isFlutterFlow={true}
             />
           </Col>
 
