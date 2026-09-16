@@ -63,7 +63,7 @@ const ProjectCard = (props) => {
           </Button>
         )}
 
-        {props.ghLink === "#" && props.isFeatured && (
+        {props.ghLink === "#" && (
           <Button
             variant="primary"
             disabled
@@ -75,7 +75,7 @@ const ProjectCard = (props) => {
               cursor: "not-allowed",
             }}
           >
-            🔒 &nbsp; Private / Client Repo
+            🔒 &nbsp; {props.isFeatured ? "Private / Client Repo" : "Source Unavailable"}
           </Button>
         )}
 

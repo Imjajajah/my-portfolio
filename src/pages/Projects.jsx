@@ -109,7 +109,7 @@ const Projects = () => {
               isBlog={false}
               title="Alumni Tracker System"
               description="Led the front-end design and development of the PUPQC Alumni Tracker System, ensuring a responsive and user-friendly interface. Also contributed minor backend enhancements. (Tech Stack: Django, HTML, CSS, JS, Bootstrap, Git, Jira)"
-              ghLink="https://github.com/gfmicproj/GFMIC_Membership_Frontend"
+              ghLink="https://github.com/K7soo/Alumni_Frontend"
               demoLink="https://alumnifrontenddeployv1-2.onrender.com/"
             />
           </Col>
@@ -121,8 +121,7 @@ const Projects = () => {
               isBlog={false}
               title="GFMIC Membership (Web)"
               description="Developed the responsive front-end interface for the GFMIC membership platform, focusing on seamless user registration and efficient record management. (Tech Stack: Django, HTML, CSS, JS, Bootstrap, Git, Jira)"
-              ghLink="https://portal.gfmic.ph/membership/#member_register"
-              demoLink="https://portal.gfmic.ph/membership/#member_register"
+              ghLink="https://github.com/gfmicproj/GFMIC_Membership_Frontend"
             />
           </Col>
 
@@ -144,7 +143,7 @@ const Projects = () => {
               isBlog={false}
               title="QR-Attendance System"
               description="Developed the full-stack QR-Attendance System, implementing QR code generation and scanning logic to accurately record and manage attendance. (Tech Stack: Django, HTML, CSS, JS, Bootstrap, Git, PostgreSQL)"
-              ghLink="https://github.com/Imjajajah/qr-attendance-system"
+              ghLink="https://github.com/Imjajajah/QR-Attendance"
             />
           </Col>
 
@@ -155,7 +154,7 @@ const Projects = () => {
               isBlog={false}
               title="Patient Management System"
               description="Developed a full-featured hospital system managing patient records, emergency admission, appointments, and doctor assessments. (Tech Stack: Laravel, JS, Bootstrap, Git)"
-              ghLink="https://github.com/Imjajajah/patient-management-system"
+              ghLink="https://github.com/keeper2317/HS-Patient-Management-System"
             />
           </Col>
 
@@ -166,7 +165,7 @@ const Projects = () => {
               isBlog={false}
               title="Algoritees E-Commerce"
               description="Designed and implemented a web-based e-commerce platform for algorithm-themed merchandise, integrating product listings and a secure checkout flow. (Tech Stack: Laravel, JS, Bootstrap, Git)"
-              ghLink="https://github.com/Imjajajah/algoritees"
+              ghLink="#"
             />
           </Col>
 
@@ -178,7 +177,6 @@ const Projects = () => {
               title="GFMIC Finance System"
               description="Developed the front-end for GFMIC's dedicated financial management platform, providing robust tools for transaction tracking, budgeting, and financial reporting. (Tech Stack: Django, HTML, CSS, JS, Bootstrap, Git, MySQL)"
               ghLink="https://github.com/gfmicproj/GFMIC_Finance_Frontend"
-              demoLink="https://finance.gfmic.ph/"
             />
           </Col>
 
@@ -201,7 +199,7 @@ const Projects = () => {
               title="PUPQC-Accreditation"
               description="Created a comprehensive public-facing website using Google Sites to showcase PUPQC's institutional achievements, campus information, and major accreditation highlights. (Tech Stack: Google Sites)"
               ghLink="#"
-              demoLink="#"
+              demoLink="https://sites.google.com/view/pupqcaccre/home"
             />
           </Col>
         </Row>

@@ -6,8 +6,6 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa"; // Imported FaFacebookF and FaInstagram
 
-import logo from "../../assets/sLogo.png";
-
 const Footer = () => {
     let date = new Date();
     let year = date.getFullYear();
@@ -15,11 +13,8 @@ const Footer = () => {
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copywright">
-            <span>Dedicated to creating impactful solutions!</span>
-          </Col>
-          <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            <strong className="yellow" style={{ marginLeft: "10px", fontSize: "1.2rem" }}>JR.</strong>
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
