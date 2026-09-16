@@ -1,15 +1,15 @@
 # 🌟 Jarrell Inocando Reyes — Personal Portfolio
 
-Welcome to my portfolio! I am a **Full-Stack & Mobile Developer** and **Technical Support Engineer** based in Quezon City, Philippines. I specialize in architecting, developing, and deploying multi-platform enterprise systems, with a strong focus on offline-first capabilities, transactional security, and custom integrations.
+Welcome to my portfolio! I am a **Full-Stack & Mobile Software Engineer** based in Quezon City, Philippines (**Civil Service Professional Eligible**). I specialize in architecting, developing, and deploying multi-platform enterprise software suites, with a strong focus on offline-first data synchronization, transactional security, and complex database query optimizations.
 
 ---
 
 ## 🚀 About Me
 
 - 🎓 **Education**: Bachelor of Science in Information Technology (Polytechnic University of the Philippines, Class of 2025)
-- 💼 **Current Role**: Technical Support Engineer at **Telus**, supporting Google's RCS ecosystem and enterprise telecom clients.
-- 🛠️ **Freelance Work**: Architect and deploy production-grade admin dashboards, field operations apps, and customer-facing mobile portals.
-- 🎯 **Specializations**: Offline-first synchronization, transactional payment integrations (PayMongo), hardware peripherals (ESC/POS Bluetooth printing), and secure database design.
+- 📜 **Eligibility**: Civil Service Professional Eligible
+- 💻 **Core Focus**: Architecting and deploying production-grade enterprise software suites (web, mobile, backend databases, hardware protocols).
+- 🎯 **Specializations**: Offline-first SQLite synchronization, transactional payment integrations (PayMongo SDK & Webhooks), ESC/POS Bluetooth thermal printing, and relational schema optimization (PostgreSQL, MySQL).
 
 ---
 

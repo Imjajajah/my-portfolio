@@ -17,24 +17,19 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                  Hi, my name is <span className="yellow">Jarrell I. Reyes </span>
-                  and I'm based in <span className="yellow"> Quezon City, Philippines.</span>
-                 <br />
-                 <br />
-                 I graduated from the <span className="yellow">Polytechnic University of the Philippines</span> in 2025 with a Bachelor of Science in Information Technology, and I'm currently working as a <b className="yellow">Technical Support Engineer</b> at <b className="yellow">Telus</b>, supporting Google's RCS ecosystem and enterprise telecom clients.
-                 <br />
-                 <br />
-                  As a <b className="yellow">Freelance Full-Stack & Mobile Developer</b>, I architect and deploy <b className="yellow">multi-platform enterprise systems</b> — from admin web dashboards and offline-first field operations apps to customer-facing mobile portals — for real clients in production.
+                  Hi, my name is <span className="yellow">Jarrell I. Reyes</span> and I'm a <b className="yellow">Full-Stack & Mobile Software Engineer</b> based in <span className="yellow">Quezon City, Philippines</span> (<b className="yellow">Civil Service Professional Eligible</b>).
                   <br />
                   <br />
-                  I specialize in <b className="yellow">offline-first synchronization protocols</b>, <b className="yellow">transactional security</b>, and <b className="yellow">secure database engineering</b>. My stack spans{" "}
-                  <b className="yellow">PHP (Laravel, CodeIgniter)</b>, <b className="yellow">Python (Django)</b>, <b className="yellow">Flutter/Dart</b>, and <b className="yellow">JavaScript (Next.js, React)</b>, backed by <b className="yellow">MySQL, PostgreSQL, Firebase, and SQLite</b>.
+                  I graduated from the <span className="yellow">Polytechnic University of the Philippines (PUP)</span> with a Bachelor of Science in Information Technology, specializing in architecting, developing, and deploying multi-platform software suites for enterprise clients serving thousands of active transaction logs.
                   <br />
                   <br />
-                  I integrate real-world payment systems (<b className="yellow">PayMongo</b>), hardware peripherals (<b className="yellow">ESC/POS Bluetooth printing</b>), and third-party logistics APIs — translating complex business workflows into robust, automated software pipelines.
+                  I specialize in <b className="yellow">offline-first data synchronization protocols</b>, <b className="yellow">transactional security</b>, and <b className="yellow">complex database query optimization</b>. My core stack spans <b className="yellow">JavaScript (TypeScript, React, Node.js, Express)</b>, <b className="yellow">Flutter / Dart</b>, <b className="yellow">PHP (Laravel, CodeIgniter MVC)</b>, and <b className="yellow">Python (Django)</b>, backed by <b className="yellow">PostgreSQL, MySQL, SQLite</b>, and <b className="yellow">Google Firebase</b>.
                   <br />
                   <br />
-                  I also hold certifications in <b className="yellow">Business Analysis</b>, <b className="yellow">Project Management</b>, and <b className="yellow">Cybersecurity</b>, enabling me to engage stakeholders and lead full project lifecycles from requirements to delivery.
+                  In real-world production environments, I engineer mission-critical systems: from sequential compound billing logic and thread-safe cashier transaction pipelines to custom hardware protocols (<b className="yellow">ESC/POS Bluetooth thermal printing</b>) and payment gateways (<b className="yellow">PayMongo SDK & Webhooks</b>).
+                  <br />
+                  <br />
+                  Backed by certifications in <b className="yellow">Web Development</b>, <b className="yellow">Project Management (Coursera)</b>, and <b className="yellow">Cybersecurity (Fortinet)</b>, I bring end-to-end engineering discipline — translating complex business logic into scalable, automated software.
                 </p>
               </Col>
               <Col md={4} className="myAvtar">
